@@ -6,7 +6,7 @@
     Hesap Makinesi Resmi
   </th>
   <td>
-    <a align="center" href="https://ahmetunsal.github.io/uretken-akademi-hesap-makinesi-odevi/" target="_blank">
+    <a align="center" href="https://ahmetunsal.github.io/uretken-akademi-odevler/hesap-makinesi/index.html" target="_blank">
       <img width="300" src="https://github.com/ahmetunsal/uretken-akademi-odevler/blob/main/hesap-makinesi/hesap_makinesi.png">      
     </a>
   </td>
