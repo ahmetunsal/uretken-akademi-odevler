@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hesap Makinesi</title>
+</head>
+<body>
+    
+    <div class="calculator">
+        <div class="controllers">
+            <div class="quit"></div>
+            <div class="window-state"></div>
+            <div class="minimization"></div>
+        </div>
+        <input type="text" id="display" disabled>
+        <br>
+        <!-- 
+            Burada bütün değerler için teker teker buton koyuyoruz. 
+            Aslında bu pek uygun bir yöntem değil fakat basit bir hesap makinesinde bunu yapmamız bir sorun teşkil etmiyor.
+        -->
+        <div class="buttons">
+            <ul>
+                <li>
+                    <button onclick="printToDisplay('1')">1</button>
+                    <button onclick="printToDisplay('2')">2</button>
+                    <button onclick="printToDisplay('3')">3</button>
+                    <button onclick="printToDisplay('+')">+</button>
+                </li>
+                <li>
+                    <button onclick="printToDisplay('4')">4</button>
+                    <button onclick="printToDisplay('5')">5</button>
+                    <button onclick="printToDisplay('6')">6</button>
+                    <button onclick="printToDisplay('-')">-</button>
+                </li>
+                <li>
+                    <button onclick="printToDisplay('7')">7</button>
+                    <button onclick="printToDisplay('8')">8</button>
+                    <button onclick="printToDisplay('9')">9</button>
+                    <button onclick="printToDisplay('*')">x</button>
+                </li>
+                <li>
+                    <button onclick="printToDisplay('.')">.</button>
+                    <button onclick="printToDisplay('0')">0</button>
+                    <button id="clear-btn" onclick="clearDisplay()">C</button>
+                    <button class="calc-btn" onclick="calculate()">=</button>
+                </li>
+            </ul>
+            <ul class="ahmet-unsal">
+        </div>
+        <h5>Developed & Designed by Ahmet Ünsal</h5>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
