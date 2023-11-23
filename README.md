@@ -1,6 +1,5 @@
 # Üretken Akademi & MEGA Yazılım Akademisi Ödevleri
-# [Ödev 1 - Hesap Makinesi](https://ahmetunsal.github.io/uretken-akademi-hesap-makinesi-odevi)
-
+# [Ödev 1 - Hesap Makinesi](https://ahmetunsal.github.io/uretken-akademi-odevler/hesap-makinesi/index.html)
   <table>
   <th>
     Hesap Makinesi Resmi
@@ -11,4 +10,6 @@
     </a>
   </td>
 </table>
+
+# [Ödev 2 - Sudoku](https://ahmetunsal.github.io/uretken-akademi-odevler/sudoku/index.html)
 
