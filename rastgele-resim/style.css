@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 5px;
+    overflow-x: hidden;
+}
+
+#uretken-akademi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.image {
+    position: relative;
+    flex: 0 0 calc(33.33% - 10px);
+    max-width: calc(33.33% - 10px);
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: filter 0.3s;
+}
+
+.image:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.image:hover img {
+    filter: brightness(70%);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.like {
+    background-image: url(heart.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 26px;
+    color: #fff;
+    transform: translateY(100%);
+    transition: transform 0.3s;
+}
+
+.image:hover .overlay {
+    transform: translateY(0);
+}
