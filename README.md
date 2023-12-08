@@ -13,3 +13,6 @@
 
 # [Ödev 2 - Sudoku](https://ahmetunsal.github.io/uretken-akademi-odevler/sudoku/index.html)
 
+# [Ödev 3 - Uzay Blog Sayfası](https://ahmetunsal.github.io/uretken-akademi-odevler/uzay-blog-bootstrap-4/index.html)
+
+# [Ödev 4 - Rastgele Resim](https://ahmetunsal.github.io/uretken-akademi-odevler/rastgele-resim/index.html)
