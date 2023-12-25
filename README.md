@@ -16,3 +16,7 @@
 # [Ödev 3 - Uzay Blog Sayfası](https://ahmetunsal.github.io/uretken-akademi-odevler/uzay-blog-bootstrap-4/index.html)
 
 # [Ödev 4 - Rastgele Resim](https://ahmetunsal.github.io/uretken-akademi-odevler/rastgele-resim/index.html)
+
+# [Ödev 5 - Blog Sitesi [Proje Dosyaları]](https://github.com/ahmetunsal/uretken-blog)
+
+# [Ödev 6 - Sıcaklık Dönüştürücü [Proje Dosyaları]](https://github.com/ahmetunsal/uretken-temperature-calculator)
